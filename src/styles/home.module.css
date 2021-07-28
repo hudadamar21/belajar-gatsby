@@ -1,0 +1,31 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 4em;
+}
+
+.header h2 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ffffff;
+  color: rgb(39, 39, 39);
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.header img {
+  margin: 10px 0;
+  max-width: 100%;
+}
